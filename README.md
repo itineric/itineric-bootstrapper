@@ -8,8 +8,10 @@ Do not have to care about the jar files to pass to the JVM. Or having to script 
 ## How?
 First build the bootstrapper.
 Then use it like this: 
+
 `java -jar itineric-bootstrapper-x.x.x.jar -l lib com.example.MyMainClass -- param1 param2`
 
 To get details about options use `-h` like this:
+
 `java -jar itineric-bootstrapper-x.x.x.jar -h`
 
